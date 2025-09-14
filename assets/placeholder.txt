@@ -1,0 +1,23 @@
+# Assets 폴더
+
+이 폴더에는 다음 파일들을 추가하세요:
+
+## 이미지 파일
+- `og-image.jpg` - Open Graph 이미지 (1200x630px)
+- `favicon.ico` - 파비콘
+- `video-thumbnail.jpg` - 비디오 썸네일
+- `highlight1.jpg`, `highlight2.jpg`, `highlight3.jpg` - 하이라이트 이미지
+- `live1-thumb.jpg`, `live2-thumb.jpg`, `live3-thumb.jpg` - 라이브 클립 썸네일
+- `album1.jpg`, `album2.jpg`, `album3.jpg` - 앨범 커버
+
+## 비디오 파일
+- `signature-performance.mp4` - 시그니처 사운드 비디오
+
+## 오디오 파일
+- `sample1.mp3` - Jazz Fusion 샘플
+- `sample2.mp3` - Funk Groove 샘플
+
+## 권장 사항
+- 이미지는 WebP 형식으로 변환하여 용량 최적화
+- 비디오는 720p 이하로 압축
+- 모든 파일은 적절한 크기로 리사이징

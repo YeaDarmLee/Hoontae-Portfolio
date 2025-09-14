@@ -57,8 +57,8 @@ body::before {
 
 /* Navigation */
 .nav-indicator {
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background-color: var(--text-muted);
+    border-color: var(--text-muted);
 }
 
 .nav-indicator.active {
@@ -201,13 +201,10 @@ body::before {
 .album-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    box-shadow: 
-        0 4px 20px rgba(0, 0, 0, 0.08),
-        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(20px);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 3);
 }
 
 .highlight-card::before,
@@ -247,9 +244,6 @@ body::before {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 1rem;
-    box-shadow: 
-        0 4px 15px rgba(0, 0, 0, 0.08),
-        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(20px);
@@ -288,9 +282,6 @@ body::before {
 .gear-item {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    box-shadow: 
-        0 4px 15px rgba(0, 0, 0, 0.08),
-        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(20px);
@@ -309,9 +300,6 @@ body::before {
 .testimonial {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    box-shadow: 
-        0 4px 20px rgba(0, 0, 0, 0.08),
-        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(20px);

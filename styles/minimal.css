@@ -23,9 +23,27 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: var(--text-color);
     position: relative;
+    min-height: 100vh;
+}
+
+/* 모바일에서 배경 고정을 위한 추가 설정 */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+    
+    .page {
+        background: 
+            linear-gradient(135deg, rgba(254, 254, 254, 0.7) 0%, rgba(248, 250, 252, 0.8) 50%, rgba(254, 254, 254, 0.7) 100%),
+            url('../img/metropolitan.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
 }
 
 body::before {

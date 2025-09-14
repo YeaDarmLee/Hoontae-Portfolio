@@ -409,9 +409,9 @@ class ProfileEbook {
 document.addEventListener('DOMContentLoaded', () => {
     const app = new ProfileEbook();
     
-    // Load saved theme preference
+    // Load saved theme preference (default to dark theme)
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme && savedTheme !== 'minimal') {
+    if (savedTheme === 'minimal') {
         app.toggleTheme();
     }
     

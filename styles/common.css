@@ -23,6 +23,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    background: inherit;
 }
 
 /* Page Container */
@@ -53,6 +54,7 @@ body {
     padding: 2rem;
     overflow-y: auto;
     overflow-x: hidden;
+    background: inherit;
 }
 
 .page-content {

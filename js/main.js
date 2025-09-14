@@ -146,6 +146,15 @@ class ProfileEbook {
     handleWheel(e) {
         if (this.isScrolling) return;
         
+        const currentPage = document.querySelector('.page[data-page="' + this.currentPage + '"]');
+        const isScrollable = currentPage && currentPage.scrollHeight > currentPage.clientHeight;
+        
+        // If current page is scrollable and user is scrolling vertically, allow normal scroll
+        if (isScrollable && Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+            return; // Allow normal vertical scrolling
+        }
+        
+        // Otherwise, handle horizontal page navigation
         e.preventDefault();
         
         if (e.deltaX > 0 || e.deltaY > 0) {

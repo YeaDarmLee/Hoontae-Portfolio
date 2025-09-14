@@ -165,7 +165,7 @@ class ProfileEbook {
     }
     
     handleSwipe() {
-        const swipeThreshold = 50;
+        const swipeThreshold = 100;
         const diff = this.touchStartX - this.touchEndX;
         
         if (Math.abs(diff) > swipeThreshold) {
